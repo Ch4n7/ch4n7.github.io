@@ -1,0 +1,28 @@
+title: Blah-log 
+description: My blah-blah logs about life and dream. 
+
+#url: http://brianmaierjr.github.com/long-haul
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: 主页 
+   url: /index.html
+ - title: 关于 
+   url: /about
+ - title: 联系 
+   url: /contact
+
+social:
+   github: ch4n7 
+   #twitter: brianmaierjr
+   #facebook: brianmaierjr
+   email: lesliechan007@163.com 
+
+google_analytics: "UA-58263416-1"
