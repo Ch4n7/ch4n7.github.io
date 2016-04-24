@@ -5,9 +5,174 @@
     <description>My blah-blah logs about life and dream.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 08 Apr 2016 00:59:19 +0800</pubDate>
-    <lastBuildDate>Fri, 08 Apr 2016 00:59:19 +0800</lastBuildDate>
+    <pubDate>Mon, 25 Apr 2016 00:50:53 +0800</pubDate>
+    <lastBuildDate>Mon, 25 Apr 2016 00:50:53 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      
+      <item>
+        <title>学习Hacking</title>
+        <description>&lt;p&gt;翻译ESR的&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;How to Learn Hacking&amp;gt;&lt;/code&gt;
+&lt;br /&gt;
+原文地址：&lt;a href=&quot;http://www.catb.org/esr/faqs/hacking-howto.html&quot;&gt;http://www.catb.org/esr/faqs/hacking-howto.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Hacking一时找不到合适的词儿来翻，姑且就直接放在这里了。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The “hacking” we’ll be talking about in this document is &lt;strong&gt;exploratory programming in an open-source environment&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Hacking在这里是动名词，它的动词形式是hack。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;section&quot;&gt;目录&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;#1&quot;&gt;什么是hacking&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;#2&quot;&gt;学习hacking的三个阶段&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;#3&quot;&gt;渐进式循环hacking法&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;#4&quot;&gt;培养你的软件设计感知&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;#5&quot;&gt;富于创造性&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;span-id1hackingspan&quot;&gt;&lt;span id=&quot;1&quot;&gt;什么是hacking&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;我们这里所谈的“hacking”指的是开源环境下探索性的编程。如果你认为“hacking”与计算机犯罪、破坏安全有任何联系，那么请移步他处，你在这儿将学不到这些东西。&lt;/p&gt;
+
+&lt;p&gt;Hacking主要说的是编程风格，如果按照本文的建议，你将获得普适的编程技巧。不过，可惜的是，并不是对所有人都起作用。对于拥有中等稍高编程天赋和相当灵活思维的人来说，这些可能最为适合。那些理解了本文的hacking方法的人，比较容易成为各种语言和领域的多面手，而不被具体技术所限制。&lt;/p&gt;
+
+&lt;p&gt;这可能听起来比较绕，需要注意的是，你可以并非一名hacker而进行hacking。广义上说，“hacking”是一种方法和风格的描述；“hacker”则意味着你不但进行hacking，而且遵从特定的&lt;a href=&quot;http://catb.org/~esr/faqs/hacker-howto.html&quot;&gt;文化&lt;/a&gt;和传统。更简单地说，“hacker”需要hacker的认同。&lt;/p&gt;
+
+&lt;p&gt;Hacking可不类似于软件工程里成熟的方法论，而且无正式的工具要求。Hacking有些明显区别于其它编程风格的特点：&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Hacking是基于开源代码的。&lt;/strong&gt;如今，个人层面上的hacking折射了社区层面的“开放式开发”。一个以hacking风格进行开发的程序员，期望并乐意相互使用社区他人的开放源码，用以增补和加强他自己。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Hacking是轻量级和创造性的。&lt;/strong&gt;Hacking里没有呆板的流程和精细的规格要求；相反，hacking更倾向于边尝试边解决的快节奏。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Hacking特别看重模块化和重用性。&lt;/strong&gt;在hacking的风格里，要力图避免写一些一次性代码，要偏爱写一些通用工具和功能库。这样，只要你屏蔽掉一些参数或提供更多上下文就可以定制你需要的程序了。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Hacking更愿意推倒重构，而不是修修补补。&lt;/strong&gt;Hacking风格的一个基本要素就是无论前期花了多长时间，要敢于无情地报废那些已经臃肿不堪的代码。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hacking的编程风格已经和Unix操作系统编程传统密不可分了。&lt;/p&gt;
+
+&lt;h2 id=&quot;span-id2hackingspan&quot;&gt;&lt;span id=&quot;2&quot;&gt;学习hacking的三个阶段&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;学习作曲有三个阶段。首先，你需要学会基本的乐器技能 —— 指法以及如何演奏音阶。接着，你要训练你的耳朵能够理解音乐构型。最后，你还得学会如何将这些构型融会成自己的创作中。学习hacking的过程很类似。&lt;/p&gt;
+
+&lt;p&gt;学习指法的阶段在hacking中就是掌握编程语言以及编辑器、解释器、编译器等工具的使用。（如果你不太明白提到的这些概念，去看看这篇文章吧：&lt;a href=&quot;http://www.linuxdoc.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/index.html&quot;&gt;The Unix and Internet Fundamentals HOWTO&lt;/a&gt;。）这里，我们不具体谈这些技术，因为它们取决于你使用哪一种语言。网上会有这些教程；试试搜索引擎吧。&lt;/p&gt;
+
+&lt;p&gt;演奏音阶的阶段对应于个人写些小程序。不走运的是，演奏音阶（1）并不能教会你音乐，而且（2）通常这一过程是十分枯燥的。同样，写些小程序也不能教会你hacking，而且很可能会打击你hacking的劲头，除非你写的这些小程序恰好解决了你感兴趣的难题。&lt;/p&gt;
+
+&lt;p&gt;大多编程教程只是涉及到“演奏音阶”阶段而不进一步深入了。这样的教程只会教出那些拙于互相协作、有着糟糕软件设计和构架感觉的程序员 —— 这就相当于学习音乐而没有耳朵一样。&lt;/p&gt;
+
+&lt;h2 id=&quot;span-id3hackingspan&quot;&gt;&lt;span id=&quot;3&quot;&gt;渐进式循环hacking法&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;有一种不错的学习方法。我管它叫作渐进式循环hacking法。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;首先，挑选一个你感兴趣的程序。最理想的情况是，它是你经常使用的一个程序，并且对它你有所心得。次一点的话，那就挑个你虽不常用但你认为很有趣的程序。在此Hacking方法中，万万不能尝试那些无聊的程序。
+&lt;br /&gt;
+你准备hack的程序没有必要非得很严肃。许多人会通过改进他们喜欢的游戏来磨砺编程技能。这么做唯一的不足是，现代游戏通常相当庞大和复杂，可能超出了一个初学者的掌控能力。不过你可以尝试些经典的文本游戏，其中nethack绝对是首选。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果你还不了解这个程序，那就学会如何使用它。去读读文档。在脑子里建立它的原理模型，弄明白它大概是怎么运行的。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;找一个小的功能，尝试改动或者添加进去。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;搜索代码中你需要修改的地方。
+&lt;br /&gt;
+注意：你不该尝试读下来整个代码。如果你这么做，你会感到疲惫和困惑。相反，你应该利用代码的模块化设计，将精力集中在你想要弄懂的部分。这么下去，你终将弄懂整个程序模块间如何彼此配合。
+&lt;br /&gt;
+为你所读的代码添加解释性注释会是个不错的练习。这将会帮助你记忆和组织你对于该程序的想法。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Make，测试，调试，然后将你的修改写进文档。
+&lt;br /&gt;
+将hack的部分整理进文档非常重要。如果你早早地这么做了，你将会创造出上乘的杰作。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;把你hack的工作发给程序的维护者。关于如何有效和礼貌地做这个，可以看看这篇文章里的忠告：&lt;a href=&quot;http://www.linuxdoc.org/HOWTO/Software-Release-Practice-HOWTO/index.html&quot;&gt;Software Release Practice HOWTO&lt;/a&gt;。
+&lt;br /&gt;
+我原本把这项列为可选项，但一个聪明的朋友指出我不该这么做。自顾自埋头钻研乐器可能不错，但是只有在被他人聆听后，音乐的创造特质才算真正地体现出来。同样，埋头钻研你的电脑也很棒，但是当人们使用了你的代码，并由此改变了世界，hacking才变得更有意义。现实世界的反应很重要。
+&lt;br /&gt;
+有时候（尤其是你刚刚提交hack的代码时）你的代码会被拒绝。你需要学会面对这些。这并不意味着你注定失败，通常只是说明你还没足够仔细地阅读你要hack的程序，或者你忽视了某些该程序维护社区的文化。不过，这些问题总归可以弥补。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;现在，问问自己：我是否弄懂了整个程序？
+&lt;br /&gt;
+如果懂了，hack成功。如果不懂，请移步第3项。这一次，挑一个不同的、稍稍难一点的功能去hack。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;渐进式循环hacking法的关键是一步一步弄懂整个程序，而不是一上来就试图解决所有复杂的问题。随着你循环几次地做下来，你将在头脑里拥有一个关于这个程序各功能模块运行的完整描述。总之，你将渐进式地提高你的hacking修养，弄懂一些复杂的程序或者足够完成你手头的工作。&lt;/p&gt;
+
+&lt;h2 id=&quot;span-id4span&quot;&gt;&lt;span id=&quot;4&quot;&gt;培养你的软件设计感知&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;拿小程序开始练习。如果可能的话，首先在10～50行的小程序或脚本上练习渐进式循环hacking法。或许这种代码很难找，网上许多符合这类要求的程序通常会是shell脚本或Perl、Python、Tcl程序。&lt;/p&gt;
+
+&lt;p&gt;当你在小程序上应用了几次渐进式循环hacking法之后（或者，你没能找到适合的小程序），试着在稍大些的程序上继续这种hacking法。这回，寻找那些100～500行的程序。&lt;/p&gt;
+
+&lt;p&gt;掌握了上述规模之后，接着来1000～5000行的程序。在你完全对付得来1K～5K规模的时候，你已经达到熟练程度了。&lt;/p&gt;
+
+&lt;p&gt;达到1K～5K程度以及之前，你可能开始发觉有种修改程序结构组织的冲动，而不仅仅是修改某项功能。你或许抱怨“这程序写得真够烂的”，你很想让它漂亮点、简洁点。&lt;/p&gt;
+
+&lt;p&gt;当这种情况发生时，要注意了。你软件设计的感知正在一点点被唤醒。不要急于着手修改下一个功能。相反，你要开始审视程序。现在或许是你尝试阅读整个代码的最佳时机，不过，如果你还不能读懂全部代码也不用太担心。大多数程序太臃肿，以至于无法一下就理解全部代码。只要试着弄懂你想重写的部分就好了。&lt;/p&gt;
+
+&lt;p&gt;其实，你正在处于学习hack的过渡阶段。这个阶段中不但修改可见功能代码，而且还有“重构”过程。“重构”就意味着从内部调整代码，使其更简洁、拥有更棒的架构（更好地隐藏数据、模块间更紧凑的交互接口、模块间更清楚的功能划分等等）。&lt;/p&gt;
+
+&lt;p&gt;一旦你的设计感知（类似你对音乐敏感的耳朵）被激活，你会发现你将很快开始着手重构你手头的程序。&lt;/p&gt;
+
+&lt;p&gt;事实上，这正是那些成熟黑客把握程序代码的方式——通过修改、重构、甚至重写，直到他们自我认同为止。起初不起眼的修动是为了更复杂的改动。&lt;/p&gt;
+
+&lt;p&gt;如果你成功重构了三到四个大的软件系统，那么你不仅仅获得了过硬的编程本领，而且正在通往一条人迹鲜至又神圣有力的道路：成为一名软件架构师。你将可以独立创造软件系统了。&lt;/p&gt;
+
+&lt;p&gt;新手架构师如何培养设计感知，这是我唯一知道的方法。或许的确也是不二法门。&lt;/p&gt;
+
+&lt;h2 id=&quot;span-id5span&quot;&gt;&lt;span id=&quot;5&quot;&gt;富于创造性&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p&gt;前面一直类比着学音乐，我说过你最终需要学会如何融合音乐构型于你自己的创作中（通过你不断的聆听和演奏）。创作，对于软件设计来说有过之而无不及。&lt;/p&gt;
+
+&lt;p&gt;在你阅读和吸收大量代码之前，你脑子里或许还没有一个“模式库”，这些对于你构建大型软件非常必要。渐进式循环hacking法其中一个目的就是让自己沉浸在大量代码中，并且是一个复杂程度逐渐增加的过程。这样，你就有不断阅读代码的动力。&lt;/p&gt;
+
+&lt;p&gt;最终，你将领导项目组，完全的自主创作。千万别急于求成或者强己所难；如果你能给自己的技术充分时间去成熟，那么你的第一件作品将会更完美。积极投身开源项目，你将会学到不少（包括交流技巧）用以自己的项目中来。&lt;/p&gt;
+</description>
+        
+          <description>&lt;p&gt;翻译ESR的&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;How to Learn Hacking&amp;gt;&lt;/code&gt;
+&lt;br /&gt;
+原文地址：&lt;a href=&quot;http://www.catb.org/esr/faqs/hacking-howto.html&quot;&gt;http://www.catb.org/esr/faqs/hacking-howto.html&lt;/a&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Tue, 12 Apr 2016 00:00:00 +0800</pubDate>
+        <link>/blog/hacking-cycle/</link>
+        <guid isPermaLink="true">/blog/hacking-cycle/</guid>
+        
+        
+      </item>
+      
     
       
       <item>
@@ -156,7 +321,7 @@
     
       
       <item>
-        <title>札记－《尼采：在世纪的转折点上》中关于自我发现</title>
+        <title>《尼采：在世纪的转折点上》中关于自我发现（札记）</title>
         <description>&lt;h2 id=&quot;section&quot;&gt;“自我”的发现&lt;/h2&gt;
 &lt;blockquote&gt;
   &lt;p&gt;自中世纪的丧钟敲响以来，西方人的精神上似乎经历了两次重大发现：第一次是人的发现，第二次是“自我”的发现。文艺复兴时代，当神的虚幻光芒渐渐熄灭，人的太阳升起了，“做你自己想做的事！”，冻结了一千年的尘世生活解冻了，活动吧，创造吧，尽情地享受吧。后来，一种新的惘然若失之感在人们心中滋生。堆积的物质财富，喧闹的都市生活，钟表式的分工，忙碌而刻板的日常生活。从前，人为自己的灵魂得救牺牲了尘世生活；现在，人为尘世生活又牺牲了自己的灵魂。&lt;/p&gt;
