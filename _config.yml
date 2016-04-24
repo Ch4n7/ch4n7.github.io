@@ -1,7 +1,6 @@
 title: Blah-log 
-description: My blah-blah logs about life and dream. 
+description: My blah-blah logs about life and dreams.
 
-#url: http://brianmaierjr.github.com/long-haul
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -21,8 +20,8 @@ navigation:
 
 social:
    github: ch4n7 
-   #twitter: brianmaierjr
-   #facebook: brianmaierjr
+   #twitter: 
+   #facebook: 
    email: lesliechan007@163.com 
 
 google_analytics: "UA-58263416-1"
