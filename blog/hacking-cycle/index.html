@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>学习Hacking</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico" />
+
+    <!-- Come and get me RSS readers -->
+    <link rel="alternate" type="application/rss+xml" title="Blah-log" href="/feed.xml" />
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <!--[if IE 8]><link rel="stylesheet" href="/assets/css/ie.css"><![endif]-->
+    <link rel="canonical" href="/blog/hacking-cycle/">
+
+    <!-- Modernizr -->
+    <script src="/assets/js/modernizr.custom.15390.js" type="text/javascript"></script>
+
+     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-58263416-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+ 
+</head>
+
+
+<body>
+
+    <div class="header">
+     <div class="container">
+         <h1 class="logo"><a href="/">Blah-log</a></h1>
+         <nav class="nav-collapse">
+             <ul class="noList">
+                 
+                 <li class="element first  ">
+                     <a href="/index.html">主页</a>
+                 </li> 
+                 
+                 <li class="element   ">
+                     <a href="/booklist">书单</a>
+                 </li> 
+                 
+                 <li class="element   ">
+                     <a href="/about">关于</a>
+                 </li> 
+                 
+                 <li class="element   last">
+                     <a href="/contact">联系</a>
+                 </li> 
+                 
+             </ul>
+         </nav>
+     </div>
+ </div><!-- end .header -->
+
+
+   <div class="content">
+      <div class="container">
+         <div class="post">
+  
+  <h1 class="postTitle">学习Hacking</h1>
+  <p class="meta">April 12, 2016 | <span class="time">0</span> Minute Read</p>
+  
+  <p>翻译ESR的<code class="highlighter-rouge">&lt;How to Learn Hacking&gt;</code>
+<br />
+原文地址：<a href="http://www.catb.org/esr/faqs/hacking-howto.html">http://www.catb.org/esr/faqs/hacking-howto.html</a></p>
+
+<hr />
+
+<p>Hacking一时找不到合适的词儿来翻，姑且就直接放在这里了。</p>
+
+<blockquote>
+  <p>The “hacking” we’ll be talking about in this document is <strong>exploratory programming in an open-source environment</strong>.</p>
+</blockquote>
+
+<p>Hacking在这里是动名词，它的动词形式是hack。</p>
+
+<hr />
+
+<h3 id="section">目录</h3>
+
+<ul>
+  <li>
+    <p><a href="#1">什么是hacking</a></p>
+  </li>
+  <li>
+    <p><a href="#2">学习hacking的三个阶段</a></p>
+  </li>
+  <li>
+    <p><a href="#3">渐进式循环hacking法</a></p>
+  </li>
+  <li>
+    <p><a href="#4">培养你的软件设计感知</a></p>
+  </li>
+  <li>
+    <p><a href="#5">富于创造性</a></p>
+  </li>
+</ul>
+
+<h2 id="span-id1hackingspan"><span id="1">什么是hacking</span></h2>
+
+<p>我们这里所谈的“hacking”指的是开源环境下探索性的编程。如果你认为“hacking”与计算机犯罪、破坏安全有任何联系，那么请移步他处，你在这儿将学不到这些东西。</p>
+
+<p>Hacking主要说的是编程风格，如果按照本文的建议，你将获得普适的编程技巧。不过，可惜的是，并不是对所有人都起作用。对于拥有中等稍高编程天赋和相当灵活思维的人来说，这些可能最为适合。那些理解了本文的hacking方法的人，比较容易成为各种语言和领域的多面手，而不被具体技术所限制。</p>
+
+<p>这可能听起来比较绕，需要注意的是，你可以并非一名hacker而进行hacking。广义上说，“hacking”是一种方法和风格的描述；“hacker”则意味着你不但进行hacking，而且遵从特定的<a href="http://catb.org/~esr/faqs/hacker-howto.html">文化</a>和传统。更简单地说，“hacker”需要hacker的认同。</p>
+
+<p>Hacking可不类似于软件工程里成熟的方法论，而且无正式的工具要求。Hacking有些明显区别于其它编程风格的特点：</p>
+
+<ul>
+  <li>
+    <p><strong>Hacking是基于开源代码的。</strong>如今，个人层面上的hacking折射了社区层面的“开放式开发”。一个以hacking风格进行开发的程序员，期望并乐意相互使用社区他人的开放源码，用以增补和加强他自己。</p>
+  </li>
+  <li>
+    <p><strong>Hacking是轻量级和创造性的。</strong>Hacking里没有呆板的流程和精细的规格要求；相反，hacking更倾向于边尝试边解决的快节奏。</p>
+  </li>
+  <li>
+    <p><strong>Hacking特别看重模块化和重用性。</strong>在hacking的风格里，要力图避免写一些一次性代码，要偏爱写一些通用工具和功能库。这样，只要你屏蔽掉一些参数或提供更多上下文就可以定制你需要的程序了。</p>
+  </li>
+  <li>
+    <p><strong>Hacking更愿意推倒重构，而不是修修补补。</strong>Hacking风格的一个基本要素就是无论前期花了多长时间，要敢于无情地报废那些已经臃肿不堪的代码。</p>
+  </li>
+</ul>
+
+<p>Hacking的编程风格已经和Unix操作系统编程传统密不可分了。</p>
+
+<h2 id="span-id2hackingspan"><span id="2">学习hacking的三个阶段</span></h2>
+
+<p>学习作曲有三个阶段。首先，你需要学会基本的乐器技能 —— 指法以及如何演奏音阶。接着，你要训练你的耳朵能够理解音乐构型。最后，你还得学会如何将这些构型融会成自己的创作中。学习hacking的过程很类似。</p>
+
+<p>学习指法的阶段在hacking中就是掌握编程语言以及编辑器、解释器、编译器等工具的使用。（如果你不太明白提到的这些概念，去看看这篇文章吧：<a href="http://www.linuxdoc.org/HOWTO/Unix-and-Internet-Fundamentals-HOWTO/index.html">The Unix and Internet Fundamentals HOWTO</a>。）这里，我们不具体谈这些技术，因为它们取决于你使用哪一种语言。网上会有这些教程；试试搜索引擎吧。</p>
+
+<p>演奏音阶的阶段对应于个人写些小程序。不走运的是，演奏音阶（1）并不能教会你音乐，而且（2）通常这一过程是十分枯燥的。同样，写些小程序也不能教会你hacking，而且很可能会打击你hacking的劲头，除非你写的这些小程序恰好解决了你感兴趣的难题。</p>
+
+<p>大多编程教程只是涉及到“演奏音阶”阶段而不进一步深入了。这样的教程只会教出那些拙于互相协作、有着糟糕软件设计和构架感觉的程序员 —— 这就相当于学习音乐而没有耳朵一样。</p>
+
+<h2 id="span-id3hackingspan"><span id="3">渐进式循环hacking法</span></h2>
+
+<p>有一种不错的学习方法。我管它叫作渐进式循环hacking法。</p>
+
+<ol>
+  <li>
+    <p>首先，挑选一个你感兴趣的程序。最理想的情况是，它是你经常使用的一个程序，并且对它你有所心得。次一点的话，那就挑个你虽不常用但你认为很有趣的程序。在此Hacking方法中，万万不能尝试那些无聊的程序。
+<br />
+你准备hack的程序没有必要非得很严肃。许多人会通过改进他们喜欢的游戏来磨砺编程技能。这么做唯一的不足是，现代游戏通常相当庞大和复杂，可能超出了一个初学者的掌控能力。不过你可以尝试些经典的文本游戏，其中nethack绝对是首选。</p>
+  </li>
+  <li>
+    <p>如果你还不了解这个程序，那就学会如何使用它。去读读文档。在脑子里建立它的原理模型，弄明白它大概是怎么运行的。</p>
+  </li>
+  <li>
+    <p>找一个小的功能，尝试改动或者添加进去。</p>
+  </li>
+  <li>
+    <p>搜索代码中你需要修改的地方。
+<br />
+注意：你不该尝试读下来整个代码。如果你这么做，你会感到疲惫和困惑。相反，你应该利用代码的模块化设计，将精力集中在你想要弄懂的部分。这么下去，你终将弄懂整个程序模块间如何彼此配合。
+<br />
+为你所读的代码添加解释性注释会是个不错的练习。这将会帮助你记忆和组织你对于该程序的想法。</p>
+  </li>
+  <li>
+    <p>Make，测试，调试，然后将你的修改写进文档。
+<br />
+将hack的部分整理进文档非常重要。如果你早早地这么做了，你将会创造出上乘的杰作。</p>
+  </li>
+  <li>
+    <p>把你hack的工作发给程序的维护者。关于如何有效和礼貌地做这个，可以看看这篇文章里的忠告：<a href="http://www.linuxdoc.org/HOWTO/Software-Release-Practice-HOWTO/index.html">Software Release Practice HOWTO</a>。
+<br />
+我原本把这项列为可选项，但一个聪明的朋友指出我不该这么做。自顾自埋头钻研乐器可能不错，但是只有在被他人聆听后，音乐的创造特质才算真正地体现出来。同样，埋头钻研你的电脑也很棒，但是当人们使用了你的代码，并由此改变了世界，hacking才变得更有意义。现实世界的反应很重要。
+<br />
+有时候（尤其是你刚刚提交hack的代码时）你的代码会被拒绝。你需要学会面对这些。这并不意味着你注定失败，通常只是说明你还没足够仔细地阅读你要hack的程序，或者你忽视了某些该程序维护社区的文化。不过，这些问题总归可以弥补。</p>
+  </li>
+  <li>
+    <p>现在，问问自己：我是否弄懂了整个程序？
+<br />
+如果懂了，hack成功。如果不懂，请移步第3项。这一次，挑一个不同的、稍稍难一点的功能去hack。</p>
+  </li>
+</ol>
+
+<p>渐进式循环hacking法的关键是一步一步弄懂整个程序，而不是一上来就试图解决所有复杂的问题。随着你循环几次地做下来，你将在头脑里拥有一个关于这个程序各功能模块运行的完整描述。总之，你将渐进式地提高你的hacking修养，弄懂一些复杂的程序或者足够完成你手头的工作。</p>
+
+<h2 id="span-id4span"><span id="4">培养你的软件设计感知</span></h2>
+
+<p>拿小程序开始练习。如果可能的话，首先在10～50行的小程序或脚本上练习渐进式循环hacking法。或许这种代码很难找，网上许多符合这类要求的程序通常会是shell脚本或Perl、Python、Tcl程序。</p>
+
+<p>当你在小程序上应用了几次渐进式循环hacking法之后（或者，你没能找到适合的小程序），试着在稍大些的程序上继续这种hacking法。这回，寻找那些100～500行的程序。</p>
+
+<p>掌握了上述规模之后，接着来1000～5000行的程序。在你完全对付得来1K～5K规模的时候，你已经达到熟练程度了。</p>
+
+<p>达到1K～5K程度以及之前，你可能开始发觉有种修改程序结构组织的冲动，而不仅仅是修改某项功能。你或许抱怨“这程序写得真够烂的”，你很想让它漂亮点、简洁点。</p>
+
+<p>当这种情况发生时，要注意了。你软件设计的感知正在一点点被唤醒。不要急于着手修改下一个功能。相反，你要开始审视程序。现在或许是你尝试阅读整个代码的最佳时机，不过，如果你还不能读懂全部代码也不用太担心。大多数程序太臃肿，以至于无法一下就理解全部代码。只要试着弄懂你想重写的部分就好了。</p>
+
+<p>其实，你正在处于学习hack的过渡阶段。这个阶段中不但修改可见功能代码，而且还有“重构”过程。“重构”就意味着从内部调整代码，使其更简洁、拥有更棒的架构（更好地隐藏数据、模块间更紧凑的交互接口、模块间更清楚的功能划分等等）。</p>
+
+<p>一旦你的设计感知（类似你对音乐敏感的耳朵）被激活，你会发现你将很快开始着手重构你手头的程序。</p>
+
+<p>事实上，这正是那些成熟黑客把握程序代码的方式——通过修改、重构、甚至重写，直到他们自我认同为止。起初不起眼的修动是为了更复杂的改动。</p>
+
+<p>如果你成功重构了三到四个大的软件系统，那么你不仅仅获得了过硬的编程本领，而且正在通往一条人迹鲜至又神圣有力的道路：成为一名软件架构师。你将可以独立创造软件系统了。</p>
+
+<p>新手架构师如何培养设计感知，这是我唯一知道的方法。或许的确也是不二法门。</p>
+
+<h2 id="span-id5span"><span id="5">富于创造性</span></h2>
+
+<p>前面一直类比着学音乐，我说过你最终需要学会如何融合音乐构型于你自己的创作中（通过你不断的聆听和演奏）。创作，对于软件设计来说有过之而无不及。</p>
+
+<p>在你阅读和吸收大量代码之前，你脑子里或许还没有一个“模式库”，这些对于你构建大型软件非常必要。渐进式循环hacking法其中一个目的就是让自己沉浸在大量代码中，并且是一个复杂程度逐渐增加的过程。这样，你就有不断阅读代码的动力。</p>
+
+<p>最终，你将领导项目组，完全的自主创作。千万别急于求成或者强己所难；如果你能给自己的技术充分时间去成熟，那么你的第一件作品将会更完美。积极投身开源项目，你将会学到不少（包括交流技巧）用以自己的项目中来。</p>
+
+
+  <!-- POST NAVIGATION -->
+  <div class="postNav clearfix">
+     
+      <a class="prev" href="/blog/design-my-notes/"><span>&laquo;&nbsp;设计自己的阅读笔记</span>
+      
+    </a>
+      
+     
+  </div>
+</div>
+
+      </div>
+   </div><!-- end .content -->
+
+   <div class="footer">
+   <div class="container">
+      <p class="copy">&copy; 2016 <a href="/">Ch4n7</a> Powered by <a href="http://jekyllrb.com">Jekyll</a></p>
+
+      <div class="footer-links"> 
+         <ul class="noList"> 
+            
+            
+            
+            <li><a href="https://github.com/ch4n7">
+                  <svg id="github" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 30px; width: 30px;"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1;"></circle>
+                  <path class="inner-shape" style="opacity: 1;" transform="translate(25,25) scale(0.5)" d="M50,1C22.938,1,1,22.938,1,50s21.938,49,49,49s49-21.938,49-49S77.062,1,50,1z M79.099,79.099 c-3.782,3.782-8.184,6.75-13.083,8.823c-1.245,0.526-2.509,0.989-3.79,1.387v-7.344c0-3.86-1.324-6.699-3.972-8.517 c1.659-0.16,3.182-0.383,4.57-0.67c1.388-0.287,2.855-0.702,4.402-1.245c1.547-0.543,2.935-1.189,4.163-1.938 c1.228-0.75,2.409-1.723,3.541-2.919s2.082-2.552,2.847-4.067s1.372-3.334,1.818-5.455c0.446-2.121,0.67-4.458,0.67-7.01 c0-4.945-1.611-9.155-4.833-12.633c1.467-3.828,1.308-7.991-0.478-12.489l-1.197-0.143c-0.829-0.096-2.321,0.255-4.474,1.053 c-2.153,0.798-4.57,2.105-7.249,3.924c-3.797-1.053-7.736-1.579-11.82-1.579c-4.115,0-8.039,0.526-11.772,1.579 c-1.69-1.149-3.294-2.097-4.809-2.847c-1.515-0.75-2.727-1.26-3.637-1.532c-0.909-0.271-1.754-0.439-2.536-0.503 c-0.782-0.064-1.284-0.079-1.507-0.048c-0.223,0.031-0.383,0.064-0.478,0.096c-1.787,4.53-1.946,8.694-0.478,12.489 c-3.222,3.477-4.833,7.688-4.833,12.633c0,2.552,0.223,4.889,0.67,7.01c0.447,2.121,1.053,3.94,1.818,5.455 c0.765,1.515,1.715,2.871,2.847,4.067s2.313,2.169,3.541,2.919c1.228,0.751,2.616,1.396,4.163,1.938 c1.547,0.543,3.014,0.957,4.402,1.245c1.388,0.287,2.911,0.511,4.57,0.67c-2.616,1.787-3.924,4.626-3.924,8.517v7.487 c-1.445-0.43-2.869-0.938-4.268-1.53c-4.899-2.073-9.301-5.041-13.083-8.823c-3.782-3.782-6.75-8.184-8.823-13.083 C9.934,60.948,8.847,55.56,8.847,50s1.087-10.948,3.231-16.016c2.073-4.899,5.041-9.301,8.823-13.083s8.184-6.75,13.083-8.823 C39.052,9.934,44.44,8.847,50,8.847s10.948,1.087,16.016,3.231c4.9,2.073,9.301,5.041,13.083,8.823 c3.782,3.782,6.75,8.184,8.823,13.083c2.143,5.069,3.23,10.457,3.23,16.016s-1.087,10.948-3.231,16.016 C85.848,70.915,82.88,75.317,79.099,79.099L79.099,79.099z"></path>
+                  </svg>
+            </a></li>
+             
+            
+            <li><a href="mailto:lesliechan007@163.com">
+                  <svg id="mail" class="custom-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" style="height: 30px; width: 30px;"><circle class="outer-shape" cx="50" cy="50" r="48" style="opacity: 1;"></circle>
+                  <path class="inner-shape" style="opacity: 1;" transform="translate(25,25) scale(0.5)" d="M50,1C22.938,1,1,22.938,1,50s21.938,49,49,49s49-21.938,49-49S77.062,1,50,1z M25.5,25.5h49 c0.874,0,1.723,0.188,2.502,0.542L50,57.544L22.998,26.041C23.777,25.687,24.626,25.499,25.5,25.5L25.5,25.5z M19.375,68.375v-36.75 c0-0.128,0.005-0.256,0.014-0.383l17.96,20.953L19.587,69.958C19.448,69.447,19.376,68.916,19.375,68.375L19.375,68.375z M74.5,74.5 h-49c-0.541,0-1.072-0.073-1.583-0.212l17.429-17.429L50,66.956l8.653-10.096l17.429,17.429C75.572,74.427,75.041,74.5,74.5,74.5 L74.5,74.5z M80.625,68.375c0,0.541-0.073,1.072-0.211,1.583L62.652,52.195l17.96-20.953c0.008,0.127,0.014,0.255,0.014,0.383 L80.625,68.375L80.625,68.375z"></path>
+                  </svg>
+            </a></li>
+            
+         </ul>
+      </div>
+   </div>
+</div><!-- end .footer -->
+
+
+   <!-- Add jQuery and other scripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src=""><\/script>')</script>
+<script src="/assets/js/dropcap.min.js"></script>
+<script src="/assets/js/responsive-nav.min.js"></script>
+<script src="/assets/js/scripts.js"></script>
+
+
+</body>
+
+</html>
