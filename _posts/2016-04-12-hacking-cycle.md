@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 学习Hacking
+title: 学会Hacking (Incremental-Hacking Circle)
 ---
 
 翻译ESR的`<How to Learn Hacking>`
