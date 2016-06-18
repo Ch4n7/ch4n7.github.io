@@ -5,13 +5,44 @@
     <description>My blah-blah logs about life and dreams.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 May 2016 16:50:11 +0800</pubDate>
-    <lastBuildDate>Fri, 20 May 2016 16:50:11 +0800</lastBuildDate>
+    <pubDate>Sat, 18 Jun 2016 15:12:53 +0800</pubDate>
+    <lastBuildDate>Sat, 18 Jun 2016 15:12:53 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
       <item>
-        <title>学习Hacking</title>
+        <title>Writeup 4 POJ</title>
+        <description>&lt;!--excerpt_separator--&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNmHEV1mIBHn7aSbzDVwzrksXuAuanVulI&quot;&gt;POJ 1001 Exponentiation&lt;/a&gt;, 大数运算（含小数点）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNBte8OGslJWbWIVMTgCxSJGbXMOJiWlXU&quot;&gt;POJ 1006 Biorhythms&lt;/a&gt;, 多个条件枚举程序的写法&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMfwT170aVOHYkLAjaV9SXJBtwxjT2Cy4I&quot;&gt;POJ 1141 Brackets Sequences&lt;/a&gt;, 动态规划&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNsizazXtRE0bCO4sZfCdXZPE__bDZq15M&quot;&gt;POJ 1657 Distance On Chessboard&lt;/a&gt;, 国际象棋最少步数问题，分析题&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        
+          <description>&lt;!--excerpt_separator--&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNmHEV1mIBHn7aSbzDVwzrksXuAuanVulI&quot;&gt;POJ 1001 Exponentiation&lt;/a&gt;, 大数运算（含小数点）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNBte8OGslJWbWIVMTgCxSJGbXMOJiWlXU&quot;&gt;POJ 1006 Biorhythms&lt;/a&gt;, 多个条件枚举程序的写法&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMfwT170aVOHYkLAjaV9SXJBtwxjT2Cy4I&quot;&gt;POJ 1141 Brackets Sequences&lt;/a&gt;, 动态规划&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNsizazXtRE0bCO4sZfCdXZPE__bDZq15M&quot;&gt;POJ 1657 Distance On Chessboard&lt;/a&gt;, 国际象棋最少步数问题，分析题&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        
+        <pubDate>Sat, 18 Jun 2016 00:00:00 +0800</pubDate>
+        <link>/blog/Writeup4POJ/</link>
+        <guid isPermaLink="true">/blog/Writeup4POJ/</guid>
+        
+        <category>writeup</category>
+        
+        
+      </item>
+      
+    
+      
+      <item>
+        <title>Incremental-Hacking Circle</title>
         <description>&lt;p&gt;翻译ESR的&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;How to Learn Hacking&amp;gt;&lt;/code&gt;
 &lt;br /&gt;
 原文地址：&lt;a href=&quot;http://www.catb.org/esr/faqs/hacking-howto.html&quot;&gt;http://www.catb.org/esr/faqs/hacking-howto.html&lt;/a&gt;&lt;/p&gt;
@@ -391,7 +422,7 @@
     
       
       <item>
-        <title>简明awki教程</title>
+        <title>简明awk教程</title>
         <description>&lt;p&gt;&lt;em&gt;整理翻译 &lt;a href=&quot;http://www.hcs.harvard.edu/~dholland/computers/awk.html&quot;&gt;http://www.hcs.harvard.edu/~dholland/computers/awk.html&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -513,7 +544,6 @@
 
 &lt;h3 id=&quot;section-6&quot;&gt;再说一些&lt;/h3&gt;
 &lt;p&gt;这个教程相当简单、基础，awk其实可以做许多有用的事。man手册页中关于awk的部分是很好的参考。&lt;/p&gt;
-
 </description>
         
           <description>&lt;p&gt;&lt;em&gt;整理翻译 &lt;a href=&quot;http://www.hcs.harvard.edu/~dholland/computers/awk.html&quot;&gt;http://www.hcs.harvard.edu/~dholland/computers/awk.html&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
