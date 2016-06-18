@@ -3,6 +3,7 @@ layout: post
 title: 黑客格调
 author: ch4n7
 tag: hack
+description: Hackers都干些什么？
 ---
 
 *翻译 [http://www.catb.org/esr/faqs/hacker-howto.html#style](http://www.catb.org/esr/faqs/hacker-howto.html#style)*

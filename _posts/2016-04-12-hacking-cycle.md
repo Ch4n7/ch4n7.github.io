@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 学会Hacking (Incremental-Hacking Circle)
+title: Incremental-Hacking Circle
+description: 翻译Eri S. Raymond的文章《How to Learn Hacking》。
 ---
 
 翻译ESR的`<How to Learn Hacking>`

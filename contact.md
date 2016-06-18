@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Contact Me 
 ---
 
+<!--
 <div id="contact">
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
@@ -20,3 +21,4 @@ title: Contact Long Haul
     <input type="submit" value="Send" class="button">
   </form>
 </div>
+-->
