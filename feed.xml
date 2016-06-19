@@ -5,8 +5,8 @@
     <description>My blah-blah logs about life and dreams.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 18 Jun 2016 15:12:53 +0800</pubDate>
-    <lastBuildDate>Sat, 18 Jun 2016 15:12:53 +0800</lastBuildDate>
+    <pubDate>Sun, 19 Jun 2016 15:52:42 +0800</pubDate>
+    <lastBuildDate>Sun, 19 Jun 2016 15:52:42 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
@@ -18,6 +18,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNBte8OGslJWbWIVMTgCxSJGbXMOJiWlXU&quot;&gt;POJ 1006 Biorhythms&lt;/a&gt;, 多个条件枚举程序的写法&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMfwT170aVOHYkLAjaV9SXJBtwxjT2Cy4I&quot;&gt;POJ 1141 Brackets Sequences&lt;/a&gt;, 动态规划&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNsizazXtRE0bCO4sZfCdXZPE__bDZq15M&quot;&gt;POJ 1657 Distance On Chessboard&lt;/a&gt;, 国际象棋最少步数问题，分析题&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMeYlpSVXZI57m4GoN1y6AWw32LQ6lMVJ8&quot;&gt;POJ 2002 Squares&lt;/a&gt;, 如何不重复不遗漏地枚举，二分查找或Hash&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
@@ -27,6 +28,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNBte8OGslJWbWIVMTgCxSJGbXMOJiWlXU&quot;&gt;POJ 1006 Biorhythms&lt;/a&gt;, 多个条件枚举程序的写法&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMfwT170aVOHYkLAjaV9SXJBtwxjT2Cy4I&quot;&gt;POJ 1141 Brackets Sequences&lt;/a&gt;, 动态规划&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNsizazXtRE0bCO4sZfCdXZPE__bDZq15M&quot;&gt;POJ 1657 Distance On Chessboard&lt;/a&gt;, 国际象棋最少步数问题，分析题&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMeYlpSVXZI57m4GoN1y6AWw32LQ6lMVJ8&quot;&gt;POJ 2002 Squares&lt;/a&gt;, 如何不重复不遗漏地枚举，二分查找或Hash&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
