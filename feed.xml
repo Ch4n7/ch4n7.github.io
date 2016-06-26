@@ -5,8 +5,8 @@
     <description>My blah-blah logs about life and dreams.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 26 Jun 2016 01:19:18 +0800</pubDate>
-    <lastBuildDate>Sun, 26 Jun 2016 01:19:18 +0800</lastBuildDate>
+    <pubDate>Sun, 26 Jun 2016 22:51:30 +0800</pubDate>
+    <lastBuildDate>Sun, 26 Jun 2016 22:51:30 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
@@ -22,6 +22,8 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALOZcFW8cc9P4IkC_fKCoGFhWHXt7HnRg5k&quot;&gt;POJ 1094 Sorting It All Out&lt;/a&gt;, 拓扑排序&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNkyMqJYO1I85HXuCuWeKGz6jcTrtMxCFE&quot;&gt;POJ 1860 Currency Exchange&lt;/a&gt;, Bellman-Ford单源最短路径思想的应用&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNgKw8Oz7xFrL_lNBnAfL6FtMlH7V53jW4&quot;&gt;POJ 1013 Counterfeit Dollar&lt;/a&gt;, 称量硬币，分析题或枚举&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALOQQiFfOLNHHaYGMuYlnmGxuSViul2xpuM&quot;&gt;POJ 1543 Perfect Cubes&lt;/a&gt;, 枚举代码的写法（先框架后约束）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALO5LOu0JGpImrW8Vss4BYJwwxMx1Te2K1w&quot;&gt;POJ 1222 Extended Lights Out&lt;/a&gt;, 遍历搜索空间，点灯趣题&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
@@ -35,6 +37,8 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALOZcFW8cc9P4IkC_fKCoGFhWHXt7HnRg5k&quot;&gt;POJ 1094 Sorting It All Out&lt;/a&gt;, 拓扑排序&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNkyMqJYO1I85HXuCuWeKGz6jcTrtMxCFE&quot;&gt;POJ 1860 Currency Exchange&lt;/a&gt;, Bellman-Ford单源最短路径思想的应用&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNgKw8Oz7xFrL_lNBnAfL6FtMlH7V53jW4&quot;&gt;POJ 1013 Counterfeit Dollar&lt;/a&gt;, 称量硬币，分析题或枚举&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALOQQiFfOLNHHaYGMuYlnmGxuSViul2xpuM&quot;&gt;POJ 1543 Perfect Cubes&lt;/a&gt;, 枚举代码的写法（先框架后约束）&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALO5LOu0JGpImrW8Vss4BYJwwxMx1Te2K1w&quot;&gt;POJ 1222 Extended Lights Out&lt;/a&gt;, 遍历搜索空间，点灯趣题&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
