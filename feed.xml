@@ -5,8 +5,8 @@
     <description>My blah-blah logs about life and dreams.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Jul 2016 00:08:36 +0800</pubDate>
-    <lastBuildDate>Fri, 01 Jul 2016 00:08:36 +0800</lastBuildDate>
+    <pubDate>Sun, 10 Jul 2016 19:23:31 +0800</pubDate>
+    <lastBuildDate>Sun, 10 Jul 2016 19:23:31 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
@@ -26,6 +26,9 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALO5LOu0JGpImrW8Vss4BYJwwxMx1Te2K1w&quot;&gt;POJ 1222 Extended Lights Out&lt;/a&gt;, 遍历搜索空间，点灯趣题&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALPerWWv-6lBW68kUT3ETzDzgeE-6Kb2g7Y&quot;&gt;POJ 1077 Eight&lt;/a&gt;, 八数码问题，BFS，全排列康托展开&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALP6rusUqJZCJK70yyU2-82JrSdllYFDvpg&quot;&gt;POJ 1458 Common Sequence&lt;/a&gt;, LCS问题，动态规划&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALOs30lc2ulDv4l4AD5kDceX-Q0xakcAAuY&quot;&gt;POJ 2665 Trees&lt;/a&gt;, 计算重复区间总长度&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMiBGcHX7NHoZ35upYS6FQgZKWnve0M3uw&quot;&gt;POJ 1629 Fillword&lt;/a&gt;, 字符统计&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNU39GgrAxMI6uf2BIBKZqIppuKTAjLzJY&quot;&gt;POJ 1012 Joseph&lt;/a&gt;, 约瑟夫环问题，模拟，结果cache&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
@@ -43,6 +46,9 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALO5LOu0JGpImrW8Vss4BYJwwxMx1Te2K1w&quot;&gt;POJ 1222 Extended Lights Out&lt;/a&gt;, 遍历搜索空间，点灯趣题&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALPerWWv-6lBW68kUT3ETzDzgeE-6Kb2g7Y&quot;&gt;POJ 1077 Eight&lt;/a&gt;, 八数码问题，BFS，全排列康托展开&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALP6rusUqJZCJK70yyU2-82JrSdllYFDvpg&quot;&gt;POJ 1458 Common Sequence&lt;/a&gt;, LCS问题，动态规划&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALOs30lc2ulDv4l4AD5kDceX-Q0xakcAAuY&quot;&gt;POJ 2665 Trees&lt;/a&gt;, 计算重复区间总长度&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMiBGcHX7NHoZ35upYS6FQgZKWnve0M3uw&quot;&gt;POJ 1629 Fillword&lt;/a&gt;, 字符统计&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNU39GgrAxMI6uf2BIBKZqIppuKTAjLzJY&quot;&gt;POJ 1012 Joseph&lt;/a&gt;, 约瑟夫环问题，模拟，结果cache&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
