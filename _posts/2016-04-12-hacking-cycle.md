@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Incremental-Hacking Circle
+title: Incremental-Hacking Cycle 
 description: 翻译Eri S. Raymond的文章《How to Learn Hacking》。
 ---
 
