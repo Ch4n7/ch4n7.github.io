@@ -5,8 +5,8 @@
     <description>My blah-blah logs about life and dreams.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Sep 2016 14:35:37 +0800</pubDate>
-    <lastBuildDate>Fri, 16 Sep 2016 14:35:37 +0800</lastBuildDate>
+    <pubDate>Sun, 23 Oct 2016 14:46:23 +0800</pubDate>
+    <lastBuildDate>Sun, 23 Oct 2016 14:46:23 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
@@ -30,6 +30,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMiBGcHX7NHoZ35upYS6FQgZKWnve0M3uw&quot;&gt;POJ 1629 Fillword&lt;/a&gt;, 字符统计&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNU39GgrAxMI6uf2BIBKZqIppuKTAjLzJY&quot;&gt;POJ 1012 Joseph&lt;/a&gt;, 约瑟夫环问题，模拟，结果cache&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNz4DJOfpRDSa4XwQECC8SmybeGtOBTgLQ&quot;&gt;POJ 2388 Who’s in the middle&lt;/a&gt;, 求中位数，快排思想，第K大数问题&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALObPpIsg81GI4QrQj5LVochEFB7R1de7iw&quot;&gt;POJ 2098 Granpa is Famous&lt;/a&gt;，计数排序，求第二大数&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
@@ -51,6 +52,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALMiBGcHX7NHoZ35upYS6FQgZKWnve0M3uw&quot;&gt;POJ 1629 Fillword&lt;/a&gt;, 字符统计&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNU39GgrAxMI6uf2BIBKZqIppuKTAjLzJY&quot;&gt;POJ 1012 Joseph&lt;/a&gt;, 约瑟夫环问题，模拟，结果cache&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNz4DJOfpRDSa4XwQECC8SmybeGtOBTgLQ&quot;&gt;POJ 2388 Who’s in the middle&lt;/a&gt;, 求中位数，快排思想，第K大数问题&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALObPpIsg81GI4QrQj5LVochEFB7R1de7iw&quot;&gt;POJ 2098 Granpa is Famous&lt;/a&gt;，计数排序，求第二大数&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
@@ -66,7 +68,7 @@
     
       
       <item>
-        <title>Incremental-Hacking Circle</title>
+        <title>Incremental-Hacking Cycle</title>
         <description>&lt;p&gt;翻译ESR的&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;How to Learn Hacking&amp;gt;&lt;/code&gt;
 &lt;br /&gt;
 原文地址：&lt;a href=&quot;http://www.catb.org/esr/faqs/hacking-howto.html&quot;&gt;http://www.catb.org/esr/faqs/hacking-howto.html&lt;/a&gt;&lt;/p&gt;
