@@ -23,3 +23,4 @@ description: ［在更］Some original write-ups for POJ problems, to record rat
 * [POJ 1012 Joseph](https://www.evernote.com/l/ALNU39GgrAxMI6uf2BIBKZqIppuKTAjLzJY), 约瑟夫环问题，模拟，结果cache
 * [POJ 2388 Who's in the middle](https://www.evernote.com/l/ALNz4DJOfpRDSa4XwQECC8SmybeGtOBTgLQ), 求中位数，快排思想，第K大数问题
 * [POJ 2098 Granpa is Famous](https://www.evernote.com/l/ALObPpIsg81GI4QrQj5LVochEFB7R1de7iw)，计数排序，求第二大数
+* [POJ 1017 Packets](https://www.evernote.com/l/ALM6uD2uQQBLdoYaQukR9dZEod7piYHgVg0), 简单的装箱问题，最少包装
