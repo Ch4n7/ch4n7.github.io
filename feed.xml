@@ -5,8 +5,8 @@
     <description>My blah-blah logs about life and dreams.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Sep 2017 15:20:17 +0800</pubDate>
-    <lastBuildDate>Mon, 11 Sep 2017 15:20:17 +0800</lastBuildDate>
+    <pubDate>Mon, 18 Sep 2017 16:00:25 +0800</pubDate>
+    <lastBuildDate>Mon, 18 Sep 2017 16:00:25 +0800</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       
@@ -33,6 +33,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNz4DJOfpRDSa4XwQECC8SmybeGtOBTgLQ&quot;&gt;POJ 2388 Who’s in the middle&lt;/a&gt;, 求中位数，快排思想，第K大数问题&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALObPpIsg81GI4QrQj5LVochEFB7R1de7iw&quot;&gt;POJ 2098 Granpa is Famous&lt;/a&gt;，计数排序，求第二大数&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALM6uD2uQQBLdoYaQukR9dZEod7piYHgVg0&quot;&gt;POJ 1017 Packets&lt;/a&gt;, 简单的装箱问题，最少包装&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALOKZR2KHCJO-40JsLmO_1lwGXmb6rngoWs&quot;&gt;POJ 3259	Wormholes&lt;/a&gt;, 判断负权环，Bellman-Ford算法&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
@@ -57,6 +58,7 @@
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALNz4DJOfpRDSa4XwQECC8SmybeGtOBTgLQ&quot;&gt;POJ 2388 Who’s in the middle&lt;/a&gt;, 求中位数，快排思想，第K大数问题&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALObPpIsg81GI4QrQj5LVochEFB7R1de7iw&quot;&gt;POJ 2098 Granpa is Famous&lt;/a&gt;，计数排序，求第二大数&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALM6uD2uQQBLdoYaQukR9dZEod7piYHgVg0&quot;&gt;POJ 1017 Packets&lt;/a&gt;, 简单的装箱问题，最少包装&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.evernote.com/l/ALOKZR2KHCJO-40JsLmO_1lwGXmb6rngoWs&quot;&gt;POJ 3259	Wormholes&lt;/a&gt;, 判断负权环，Bellman-Ford算法&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         
